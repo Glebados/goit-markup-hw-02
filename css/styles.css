@@ -21,7 +21,6 @@ grey font color: #757575;
 
 body {
   color: var(--main-blackcolor);
-  background-color: var(--second-white-background);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -48,9 +47,15 @@ body {
   color: var(--accent-color);
 }
 
-.site-nav .link,
-.contacts .link {
+.site-nav .link {
   color: var(--main-blackcolor);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts .link {
+  color: var(--grey-fontcolor);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -104,12 +109,15 @@ body {
 
 .feature .title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .feature-description {
+  font-weight: 400;
   line-height: 1.7;
+  color: var(--grey-fontcolor);
 }
 
 /*Our team*/
@@ -117,7 +125,7 @@ body {
     color: var(--main-blackcolor);
 }  */
 .section.team {
-  background-color: var(--main-backgroundcolor);
+  background-color: var(--second-white-background);
 }
 
 .team .position {
