@@ -26,6 +26,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+a {
+  text-decoration: none;
+}
+
 .list {
   list-style: none;
 }
@@ -204,6 +208,7 @@ address {
 }
 
 .work-name {
+  color: var(--main-blackcolor);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
